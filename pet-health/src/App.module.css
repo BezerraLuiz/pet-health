@@ -1,0 +1,30 @@
+.titulo {
+  font-size: 50px;
+  color: #6C8871;
+  margin-bottom: 15px;
+}
+
+.texto {
+  text-align: justify;
+  text-indent: 25px;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #343434;
+}
+
+#slogan {
+  font-family: "Istok Web", sans-serif;
+}
+
+.effect_left {
+  opacity: 0;
+  transform: translateX(-100%); /* Começa fora da tela à esquerda */
+  transition: opacity 1s ease-in-out, transform 0.8s ease-in-out; /* Transições suaves para opacidade e transformação */
+}
+
+.effect_right {
+  opacity: 0;
+  transform: translateX(100%); /* Começa fora da tela à direita */
+  transition: opacity 1s ease-in-out, transform 0.8s ease-in-out; /* Transições suaves para opacidade e transformação */
+}

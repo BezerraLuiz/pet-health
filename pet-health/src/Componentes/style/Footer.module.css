@@ -1,0 +1,15 @@
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 35px;
+  background-color: #6C8871;
+}
+
+#texto {
+  font-family: "Istok Web", sans-serif;;
+  font-weight: bold;
+  font-size: 15px;
+  color: #EDE7DB;
+}
