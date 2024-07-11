@@ -1,6 +1,6 @@
 import style from './App.module.css'
-import img1 from './assets/img1.png'
-import img2 from './assets/img2.png'
+import img1 from './assets/principal/img1.png'
+import img2 from './assets/principal/img2.png'
 import Footer from './Componentes/Footer'
 import Navbar from './Componentes/Navbar'
 import { Outlet } from 'react-router'

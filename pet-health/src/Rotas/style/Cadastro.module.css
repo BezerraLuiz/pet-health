@@ -1,0 +1,146 @@
+#container_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12.5vh;
+}
+
+#container_cadastro {
+  display: flex;
+  flex-direction: column;
+  width: 1100px;
+  height: 550px;
+  background-color: #6C8871;
+  border-radius: 10px;
+}
+
+#texto {
+  font-family: "Istok Web", sans-serif;
+  color: #EDE7DB;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin: 50px 0 60px 0;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  font-family: "Istok Web", sans-serif;
+  color: #EDE7DB;
+  margin-bottom: 3px;
+}
+
+.input {
+  width: 350px;
+  height: 40px;
+  background-color: #EDE7DB;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.container_campos {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.container_input {
+  display: flex;
+  flex-direction: column; 
+}
+
+.button {
+  width: 350px;
+  height: 40px;
+  background-color: #EDE7DB;
+  border: 0;
+  border-radius: 5px;
+  color: #343434;
+  font-family: "Istok Web", sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 50px 0 0 0;
+}
+
+.button:hover {
+  background-color: #afada8;
+  color: #444040;
+}
+
+#link {
+  font-family: "Istok Web", sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  text-decoration: none;
+  color: #343434;
+}
+
+#link:hover {
+  color: #444040;
+}
+
+.img {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: -1;
+}
+
+#fish_um {
+  top: 70%;
+  left: 2%;
+}
+
+#fish_dois {
+  top: 2%;
+  right: 1%;
+}
+
+#alga{
+  right: 1%;
+  bottom: 3.5%;
+}
+
+#bubble {
+  top: 2%;
+  left: 5%;
+  width: 100px;
+  height: 100px;
+}
+
+#erro {
+  font-family: "Istok Web", sans-serif;
+  color: #444040;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 30px;
+}
+
+/* Efeitos do error */
+
+.fadeEnter {
+  opacity: 0;
+}
+
+.fadeEnterActive {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.fadeExit {
+  opacity: 1;
+}
+
+.fadeExitActive {
+  opacity: 0;
+  transition: opacity 300ms;
+}

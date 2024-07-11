@@ -1,6 +1,7 @@
 import style from './style/Navbar.module.css';
 import user from '../assets/user.png';
 import lupa from '../assets/lupa.png';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
 
@@ -13,6 +14,7 @@ function Navbar() {
             <img id={ style.img_lupa } src={ lupa } alt="lupa" />
             <input id={ style.barra_pesquisa } type="text" placeholder='O que seu pet comeu?'/>
           </div>
+
           <div style={{
             display: 'flex'
           }}>
@@ -21,14 +23,18 @@ function Navbar() {
               display: 'flex',
               flexDirection: 'column'
             }}>
-              <p className={ style.text_user }>Entrar</p>
+              <Link to={`/login`} style={{
+                textDecoration: 'none'
+              }}><p className={ style.text_user }>Entrar</p></Link>
               <p className={ style.text_user } style={{
                 marginTop: '5px',
                 fontWeight: 600
               }}>Cadastrar-se</p>
             </div>
           </div>
+
         </div>
+
         <div style={{
           display: 'flex',
           justifyContent: 'center',
