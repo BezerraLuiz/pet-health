@@ -14,25 +14,6 @@ function Navbar() {
             <img id={ style.img_lupa } src={ lupa } alt="lupa" />
             <input id={ style.barra_pesquisa } type="text" placeholder='O que seu pet comeu?'/>
           </div>
-
-          <div style={{
-            display: 'flex'
-          }}>
-            <img id={ style.img_user } src={ user } alt="user" />
-            <div style={{
-              display: 'flex',
-              flexDirection: 'column'
-            }}>
-              <Link to={`/login`} style={{
-                textDecoration: 'none'
-              }}><p className={ style.text_user }>Entrar</p></Link>
-              <p className={ style.text_user } style={{
-                marginTop: '5px',
-                fontWeight: 600
-              }}>Cadastrar-se</p>
-            </div>
-          </div>
-
         </div>
 
         <div style={{
