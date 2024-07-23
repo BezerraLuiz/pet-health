@@ -3,13 +3,16 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Login from "./Rotas/Login.jsx";
-import Cadastro from "./Rotas/Cadastro.jsx";
+import Cachorro from "./Rotas/Cachorro.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+  },
+  {
+    path: "/cachorro",
+    element: <Cachorro />,
   },
 ]);
 

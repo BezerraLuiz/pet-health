@@ -1,0 +1,75 @@
+#img_cachorro {
+  position: absolute;
+  top: 10%;
+  left: -8%;
+  width: 550px;
+  height: 550px;
+}
+
+.container_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container_margin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 200px;
+  margin-left: 430px;
+}
+
+.container_nao_comestivel {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 250px;
+  height: 450px;
+  border-radius: 10px;
+  background-color: #343434;
+}
+
+.titulo {
+  align-self: flex-start;
+  margin: 10px 10px 25px 10px;
+  color: white;
+  text-align: justify;
+  font-weight: normal;
+}
+
+.texto {
+  color: white;
+  text-align: justify;
+  text-indent: 10%;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.lista {
+  margin: 10px 0px 0px 27px;
+  color: white;
+  text-align: justify;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.container_circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+  margin: 0px 7px 7px 7px;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: #FF4155;
+}
+
+.img_nao_comestivel {
+  width: 40px;
+  height: 40px;
+}
+

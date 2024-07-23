@@ -70,7 +70,6 @@ function App() {
 
   return (
     <>
-      <Outlet />
       <Navbar />
 
       <Scrollbar />
